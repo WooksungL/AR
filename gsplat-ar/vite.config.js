@@ -9,6 +9,7 @@ const COI_HEADERS = {
 };
 
 export default defineConfig({
+  base: "/",
   plugins: [mkcert()],
   server: {
     https: true,     // dev용 자동 인증서
